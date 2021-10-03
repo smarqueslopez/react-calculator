@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+:root {
+  // Breakpoints
+  --mobile: 375px;
+  --desktop: 1440px;
+
+  // Border radius
+  --border-radius: 0.75rem;
+  --border-radius-key: 0.375rem;
+
+  // Colors
+  --white-color: hsl(0, 0%, 100%);
+  --black-color: hsl(0, 0%, 0%);
+
+  .theme1 {
+    --main-bg-color: hsl(222, 26%, 31%);
+    --main-text-color: var(--white-color);
+    --toggle-color: hsl(6, 63%, 50%);
+    --toggle-bg-color: hsl(223, 31%, 20%);
+    --toggle-text-color: var(--main-text-color);
+    --screen-bg-color: hsl(224, 36%, 15%);
+    --screen-text-color: var(--main-text-color);
+    --keypad-bg-color: hsl(223, 31%, 20%);
+    --keypad-text-color: var(--main-text-color);
+    --key-bg-color-1: hsl(30, 25%, 89%);
+    --key-text-color-1: var(--black-color);
+    --key-shadow-color-1: hsl(28, 16%, 65%);
+    --key-bg-color-2: hsl(225, 21%, 49%);
+    --key-text-color-2: hsl(0, 0%, 100%);
+    --key-shadow-color-2: hsl(224, 28%, 35%);
+    --key-bg-color-3: hsl(6, 63%, 50%);
+    --key-text-color-3: hsl(0, 0%, 100%);
+    --key-shadow-color-3: hsl(6, 70%, 34%);
+  }
+
+  .theme2 {
+    --main-bg-color: hsl(0, 0%, 90%);
+    --main-text-color: hsl(60, 10%, 19%);
+    --toggle-color: hsl(6, 63%, 50%);
+    --toggle-bg-color: hsl(0, 5%, 81%);
+    --toggle-text-color: hsl(60, 10%, 19%);
+    --screen-bg-color: hsl(0, 0%, 93%);
+    --screen-text-color: var(--main-text-color);
+    --keypad-bg-color: hsl(0, 5%, 81%);
+    --keypad-text-color: hsl(0, 0, 100%);
+    --key-bg-color-1: hsl(45, 7%, 89%);
+    --key-text-color-1: var(--black-color);
+    --key-shadow-color-1: hsl(35, 11%, 61%);
+    --key-bg-color-2: hsl(185, 42%, 37%);
+    --key-text-color-2: hsl(0, 0%, 100%);
+    --key-shadow-color-2: hsl(185, 58%, 25%);
+    --key-bg-color-3: hsl(25, 98%, 40%);
+    --key-text-color-3: hsl(0, 0%, 100%);
+    --key-shadow-color-3: hsl(25, 99%, 27%);
+  }
+
+  .theme3 {
+    --main-bg-color: hsl(268, 75%, 9%);
+    --main-text-color: hsl(52, 100%, 62%);
+    --toggle-color: hsl(6, 63%, 50%);
+    --toggle-bg-color: hsl(268, 71%, 12%);
+    --toggle-text-color: var(--main-text-color);
+    --screen-bg-color: hsl(268, 71%, 12%);
+    --screen-text-color: var(--main-text-color);
+    --keypad-bg-color: hsl(268, 71%, 12%);
+    --keypad-text-color: var(--main-text-color);
+    --key-bg-color-1: hsl(268, 47%, 21%);
+    --key-text-color-1: var(--main-text-color);
+    --key-shadow-color-1: hsl(290, 70%, 36%);
+    --key-bg-color-2: hsl(281, 89%, 26%);
+    --key-text-color-2: hsl(0, 0%, 100%);
+    --key-shadow-color-2: hsl(285, 91%, 52%);
+    --key-bg-color-3: hsl(176, 100%, 44%);
+    --key-text-color-3: var(--black-color);
+    --key-shadow-color-3: hsl(177, 92%, 70%);
+  }
+}

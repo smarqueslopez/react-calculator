@@ -1,0 +1,42 @@
+.button {
+  height: 45px;
+  padding-top: 0.25rem;
+  display: grid;
+  place-items: center;
+  border-radius: var(--border-radius-key);
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--key-text-color-1);
+  background-color: var(--key-bg-color-1);
+  box-shadow: 0px 4px var(--key-shadow-color-1);
+  transition: box-shadow 90ms ease, transform 90ms ease, color 0.4s ease,
+    background-color 0.4s ease;
+
+  &.reset,
+  &.delete {
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: var(--key-text-color-2);
+    background-color: var(--key-bg-color-2);
+    box-shadow: 0px 4px var(--key-shadow-color-2);
+  }
+
+  &.equal {
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: var(--key-text-color-3);
+    background-color: var(--key-bg-color-3);
+    box-shadow: 0px 4px var(--key-shadow-color-3);
+  }
+
+  &.big-button {
+    grid-column: span 2;
+  }
+
+  &:active {
+    transform: translateY(4px);
+    box-shadow: none;
+  }
+}

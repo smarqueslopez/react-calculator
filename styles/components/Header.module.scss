@@ -1,0 +1,11 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__title {
+    font-size: 26px;
+    transition: color 0.4s ease;
+  }
+}

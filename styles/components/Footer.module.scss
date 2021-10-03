@@ -1,0 +1,15 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 1rem;
+
+  &__attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--main-text-color);
+
+    a {
+      color: var(--main-text-color);
+    }
+  }
+}
