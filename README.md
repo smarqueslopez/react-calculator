@@ -120,5 +120,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Github - [@smarqueslopez](https://github.com/smarqueslopez/)
 - Frontend Mentor - [@smarqueslopez](https://www.frontendmentor.io/profile/smarqueslopez)
